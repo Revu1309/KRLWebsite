@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact KRL Transport & Contracting Est - Get in touch for quotations, project inquiries, and construction material supply in Abu Dhabi and Dubai, UAE.">
+    <title>Contact Us | KRL Transport & Contracting Est</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <div class="logo">KRL</div>
+                <div class="brand-text">
+                    <span class="brand-name">KRL Transport & Contracting</span>
+                    <span class="brand-tagline">Building UAE's Infrastructure</span>
+                </div>
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="career.html" class="nav-link">Career</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h1>Contact Us</h1>
+                <div class="section-divider"></div>
+                <p style="font-size: 1.25rem;">Get in touch with our team for quotations, technical queries, and project
+                    collaboration opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="gap: 3rem; align-items: start;">
+                <!-- Contact Information -->
+                <div>
+                    <h2>Get In Touch</h2>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p style="margin-bottom: 2rem;">Reach out to our team for quotations, technical queries, and project
+                        collaboration. We're here to help with all your construction and material supply needs.</p>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Address</h4>
+                                <p>P.O Box 778520<br>Abu Dhabi, United Arab Emirates</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>Landline: <a href="tel:+97125533401"
+                                        style="color: var(--color-accent); font-weight: 600;">+971 2 553 3401</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>Mobile / WhatsApp</h4>
+                                <p><a href="tel:+971528164025"
+                                        style="color: var(--color-accent); font-weight: 600;">+971 52 816 4025</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@krluae.com"
+                                        style="color: var(--color-accent); font-weight: 600;">info@krluae.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card"
+                        style="margin-top: 2rem; background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); color: white;">
+                        <h3 style="color: white; margin-bottom: 1rem;">Office Locations</h3>
+                        <p style="color: rgba(255, 255, 255, 0.95);"><strong>Main Office:</strong> Abu Dhabi</p>
+                        <p style="color: rgba(255, 255, 255, 0.95); margin-top: 0.5rem;"><strong>Functional
+                                Office:</strong> Dubai</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.5rem;">Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label class="form-label" for="contactName">Name *</label>
+                                <input type="text" id="contactName" name="name" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="company">Company</label>
+                                <input type="text" id="company" name="company" class="form-input">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="contactEmail">Email *</label>
+                                <input type="email" id="contactEmail" name="email" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="contactPhone">Phone *</label>
+                                <input type="tel" id="contactPhone" name="phone" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="projectType">Project Type *</label>
+                                <select id="projectType" name="projectType" class="form-select" required>
+                                    <option value="">Select project type</option>
+                                    <option value="marine">Marine Works</option>
+                                    <option value="earthworks">Earthworks</option>
+                                    <option value="road">Road Works</option>
+                                    <option value="materials">Materials Supply</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="contactMessage">Message *</label>
+                                <textarea id="contactMessage" name="message" class="form-textarea" rows="5" required
+                                    placeholder="Tell us about your project requirements..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Placeholder -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 2rem;">Our Location</h2>
+            <div
+                style="background: linear-gradient(135deg, var(--color-gray), var(--color-light-gray)); height: 400px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--color-dark-gray);">
+                <div style="text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📍</div>
+                    <h3>Abu Dhabi, United Arab Emirates</h3>
+                    <p style="margin-top: 0.5rem;">Google Maps integration can be added here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="cta-strip">
+                <h3>Ready to Start Your Project?</h3>
+                <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.125rem; margin-bottom: 2rem;">Reach out to our
+                    team for quotations, technical queries, and project collaboration.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="tel:+97125533401" class="btn btn-secondary">Call Us Now</a>
+                    <a href="mailto:info@krluae.com" class="btn btn-secondary">Email Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>KRL Transport & Contracting Est</h4>
+                    <p>Civil, marine, earthworks, road works and material supply in the UAE.</p>
+                    <p style="margin-top: 1rem;">Professionally managed company with operations in Abu Dhabi and a
+                        functional office in Dubai.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <p><strong>Address:</strong><br>P.O Box 778520<br>Abu Dhabi, United Arab Emirates</p>
+                    <p><strong>Phone:</strong> +971 2 553 3401</p>
+                    <p><strong>Mobile:</strong> +971 52 816 4025</p>
+                    <p><strong>Email:</strong> info@krluae.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 KRL Transport & Contracting Est. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
